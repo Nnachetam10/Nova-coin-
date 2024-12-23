@@ -183,26 +183,15 @@
                 <span>BALANCE</span>
             </a>
         </nav>
+                
 
-                <script>
+           <script>                                   
 show_8619606().then(() => {
-    // Reward the user after they watch the ad
-    rewardUser(); // Call the reward function
-    alert('You have seen the ad and earned your reward!');
-}).catch(error => {
-    console.error('Error displaying the ad:', error);
-    alert('There was an issue showing the ad. Please try again.');
-});
-
-// Define the user reward function
-function rewardUser() {
-    // Example: Increase user points or credits
-    let userPoints = localStorage.getItem('userPoints') || 0; // Get current points
-    userPoints = parseInt(userPoints) + 100; // Add 100 points as a reward
-    localStorage.setItem('userPoints', userPoints); // Save updated points
-    console.log(`User rewarded! New points total: ${userPoints}`);
-}
-</script>
+    // You need to add your user reward function here, which will be executed after the user watches the ad.
+    // For more details, please refer to the detailed instructions.
+    alert('You have seen ad ad!');
+})
+        </script>
 
                 
 
